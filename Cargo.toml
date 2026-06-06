@@ -1,0 +1,15 @@
+[package]
+name = "error-forest"
+version = "0.1.0"
+edition = "2024"
+description = "Ecological signaling networks (mycorrhizal fungal networks) modeled as error-correcting codes"
+license = "MIT"
+repository = "https://github.com/SuperInstance/error-forest"
+keywords = ["error-correction", "mycorrhizal", "ecological", "burst-error", "distributed-systems"]
+categories = ["algorithms", "network-programming", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
