@@ -8,7 +8,7 @@ use serde::{Serialize, Deserialize};
 pub struct GF256(pub u8);
 
 // Generator polynomial for log/exp tables: x^8 + x^4 + x^3 + x + 1 = 0x11B
-const PRIMITIVE: u16 = 0x11B;
+const PRIMITIVE: u16 = 0x11D;
 
 // Build log and exp tables at compile time.
 const fn build_tables() -> ([u8; 256], [u8; 255]) {
